@@ -1,0 +1,4044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Univ</class>
+ <widget class="QWidget" name="Univ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>310</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:white;</string>
+   </property>
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#3c80e5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capl_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>105</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linkl_1">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>145</y>
+      <width>255</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Contactes </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Informations globales</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>145</y>
+      <width>31</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Lien :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_45">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>45</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Débouchée :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tarifl_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etatl_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#2eda80;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="debouchel_1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>241</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scrollArea_1">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="documet">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>291</width>
+      <height>127</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_15">
+     <attribute name="title">
+      <string>Prog</string>
+     </attribute>
+     <widget class="QLabel" name="fondaScroll_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_16">
+     <attribute name="title">
+      <string>Pré</string>
+     </attribute>
+     <widget class="QLabel" name="preqScroll_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_29">
+     <attribute name="title">
+      <string>Comp</string>
+     </attribute>
+     <widget class="QLabel" name="comp_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_30">
+     <attribute name="title">
+      <string>Motiv</string>
+     </attribute>
+     <widget class="QLabel" name="motiv_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Doc</string>
+     </attribute>
+     <widget class="QLabel" name="doc_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>310</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:white;</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#3c80e5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capl_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>105</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linkl_2">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>145</y>
+      <width>255</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Contactes </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Informations globales</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>145</y>
+      <width>31</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Lien :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_46">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>45</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Débouchée :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tarifl_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etatl_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#2eda80;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="debouchel_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>241</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scrollArea_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="documet_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>291</width>
+      <height>127</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_17">
+     <attribute name="title">
+      <string>Prog</string>
+     </attribute>
+     <widget class="QLabel" name="fondaScroll_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_18">
+     <attribute name="title">
+      <string>Pré</string>
+     </attribute>
+     <widget class="QLabel" name="preqScroll_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_31">
+     <attribute name="title">
+      <string>Comp</string>
+     </attribute>
+     <widget class="QLabel" name="comp_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_32">
+     <attribute name="title">
+      <string>Motiv</string>
+     </attribute>
+     <widget class="QLabel" name="motiv_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Doc</string>
+     </attribute>
+     <widget class="QLabel" name="doc_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>20</y>
+     <width>310</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:white;</string>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#3c80e5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capl_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>105</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linkl_3">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>145</y>
+      <width>255</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Contactes </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Informations globales</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>145</y>
+      <width>31</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Lien :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_47">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>45</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Débouchée :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tarifl_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etatl_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#2eda80;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="debouchel_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>241</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scrollArea_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="documet_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>291</width>
+      <height>127</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_19">
+     <attribute name="title">
+      <string>Prog</string>
+     </attribute>
+     <widget class="QLabel" name="fondaScroll_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_20">
+     <attribute name="title">
+      <string>Pré</string>
+     </attribute>
+     <widget class="QLabel" name="preqScroll_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_33">
+     <attribute name="title">
+      <string>Comp</string>
+     </attribute>
+     <widget class="QLabel" name="comp_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_34">
+     <attribute name="title">
+      <string>Motiv</string>
+     </attribute>
+     <widget class="QLabel" name="motiv_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Doc</string>
+     </attribute>
+     <widget class="QLabel" name="doc_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>20</y>
+     <width>310</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:white;</string>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#3c80e5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capl_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>105</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linkl_4">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>145</y>
+      <width>255</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Contactes </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Informations globales</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>145</y>
+      <width>31</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Lien :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_48">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>45</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Débouchée :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tarifl_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etatl_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#2eda80;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="debouchel_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>241</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scrollArea_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="documet_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>291</width>
+      <height>127</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_21">
+     <attribute name="title">
+      <string>Prog</string>
+     </attribute>
+     <widget class="QLabel" name="fondaScroll_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_22">
+     <attribute name="title">
+      <string>Pré</string>
+     </attribute>
+     <widget class="QLabel" name="preqScroll_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_35">
+     <attribute name="title">
+      <string>Comp</string>
+     </attribute>
+     <widget class="QLabel" name="comp_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_36">
+     <attribute name="title">
+      <string>Motiv</string>
+     </attribute>
+     <widget class="QLabel" name="motiv_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Doc</string>
+     </attribute>
+     <widget class="QLabel" name="doc_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>310</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:white;</string>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#3c80e5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capl_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>105</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linkl_5">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>145</y>
+      <width>255</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Contactes </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Informations globales</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>145</y>
+      <width>31</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Lien :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>45</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Débouchée :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tarifl_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etatl_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#2eda80;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="debouchel_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>241</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scrollArea_5">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="documet_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>291</width>
+      <height>127</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_23">
+     <attribute name="title">
+      <string>Prog</string>
+     </attribute>
+     <widget class="QLabel" name="fondaScroll_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_24">
+     <attribute name="title">
+      <string>Pré</string>
+     </attribute>
+     <widget class="QLabel" name="preqScroll_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_37">
+     <attribute name="title">
+      <string>Comp</string>
+     </attribute>
+     <widget class="QLabel" name="comp_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_38">
+     <attribute name="title">
+      <string>Motiv</string>
+     </attribute>
+     <widget class="QLabel" name="motiv_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Doc</string>
+     </attribute>
+     <widget class="QLabel" name="doc_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>330</y>
+     <width>310</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:white;</string>
+   </property>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#3c80e5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capl_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>105</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linkl_6">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>145</y>
+      <width>255</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Contactes </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Informations globales</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>145</y>
+      <width>31</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Lien :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_50">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>45</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Débouchée :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tarifl_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etatl_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#2eda80;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="debouchel_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>241</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scrollArea_6">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="documet_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>291</width>
+      <height>127</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_25">
+     <attribute name="title">
+      <string>Prog</string>
+     </attribute>
+     <widget class="QLabel" name="fondaScroll_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_26">
+     <attribute name="title">
+      <string>Pré</string>
+     </attribute>
+     <widget class="QLabel" name="preqScroll_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_39">
+     <attribute name="title">
+      <string>Comp</string>
+     </attribute>
+     <widget class="QLabel" name="comp_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_40">
+     <attribute name="title">
+      <string>Motiv</string>
+     </attribute>
+     <widget class="QLabel" name="motiv_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Doc</string>
+     </attribute>
+     <widget class="QLabel" name="doc_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>330</y>
+     <width>310</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:white;</string>
+   </property>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#3c80e5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fl_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capl_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>105</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linkl_7">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>145</y>
+      <width>255</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Contactes </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Informations globales</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>145</y>
+      <width>31</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Lien :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_51">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>45</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Débouchée :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tarifl_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>131</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etatl_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>291</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#2eda80;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="debouchel_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>241</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>6</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scrollArea_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="documet_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>291</width>
+      <height>127</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_27">
+     <attribute name="title">
+      <string>Prog</string>
+     </attribute>
+     <widget class="QLabel" name="fondaScroll_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_28">
+     <attribute name="title">
+      <string>Pré</string>
+     </attribute>
+     <widget class="QLabel" name="preqScroll_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_41">
+     <attribute name="title">
+      <string>Comp</string>
+     </attribute>
+     <widget class="QLabel" name="comp_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_42">
+     <attribute name="title">
+      <string>Motiv</string>
+     </attribute>
+     <widget class="QLabel" name="motiv_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>Doc</string>
+     </attribute>
+     <widget class="QLabel" name="doc_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>281</width>
+        <height>95</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

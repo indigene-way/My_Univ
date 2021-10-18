@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWidget</class>
+ <widget class="QWidget" name="mainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1320</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Barre">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1320</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:#3c80e5; color : white; border: 0px solid #2f4f4f  ; border-radius: 0.5px; text-align:left;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menu2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>5</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:#3c80e5; color : white; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:white;color:#17afd3;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:white;color:#3c80e5};</string>
+   </property>
+   <property name="text">
+    <string>Mes Choix</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/class.png</normaloff>../ICON/class.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menu3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>5</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:#3c80e5; color : white; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:white;color:#17afd3;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:white;color:#3c80e5};</string>
+   </property>
+   <property name="text">
+    <string>Mes Selections</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/list.png</normaloff>../ICON/list.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menu1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:#3c80e5; color : white; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:white;color:#17afd3;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:white;color:#3c80e5};</string>
+   </property>
+   <property name="text">
+    <string>Universités</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/list.png</normaloff>../ICON/list.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>1321</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="features">
+    <set>QDockWidget::NoDockWidgetFeatures</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::NoDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="dockWidgetContents"/>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>menu1</tabstop>
+  <tabstop>menu2</tabstop>
+  <tabstop>menu3</tabstop>
+  <tabstop>Barre</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Univ</class>
+ <widget class="QWidget" name="Univ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>610</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> color : #000028; border: 0px solid #000028 ;  text-align:center;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="newUniv">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>430</y>
+     <width>260</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:white; color : #17afd3; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:#17afd3;color:white;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:#17afd3;color:white};</string>
+   </property>
+   <property name="text">
+    <string>Nouvelle Université</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/fac.png</normaloff>../ICON/fac.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-5</x>
+     <y>2</y>
+     <width>261</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#e8ecf2;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLineEdit" name="c1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Université</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Tarifs d'inscription</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/price.png</normaloff>../ICON/price.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>débouchés</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/exit.png</normaloff>../ICON/exit.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Capacité d'acceuil</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Lien de la formation</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Formation</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Débouchée/M2 d'intêret</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>chargé spécialité</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/prof.png</normaloff>../ICON/prof.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>180</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Lien</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/url.png</normaloff>../ICON/url.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Chargé de la specialité</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Formation</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/study.png</normaloff>../ICON/study.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Tarifs d'inscription</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Université</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/fac.png</normaloff>../ICON/fac.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Capacité d'acceuil</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/capacity.png</normaloff>../ICON/capacity.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Selectivité</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Tarifs d'inscription</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/price.png</normaloff>../ICON/price.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Classement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_17">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>210</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Capacité d'acceuil</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/capacity.png</normaloff>../ICON/capacity.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c10">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Compétances</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="c11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>230</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;text-decoration : underline}
+QLineEdit:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QLineEdit:focus{background-color:white;color:#a4a5a7; text-decoration : none};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Motivation</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_19">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>270</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>débouchés</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/exit.png</normaloff>../ICON/exit.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c12">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>330</y>
+      <width>260</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:left; padding-left:7px}
+QPushButton:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QPushButton:focus{background-color:white;color:white};</string>
+    </property>
+    <property name="text">
+     <string> Modules fondamentaux</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/stock.png</normaloff>../ICON/stock.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_18">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="toolTip">
+     <string>Lien</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/url.png</normaloff>../ICON/url.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c14">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>260</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:left; padding-left:7px}
+QPushButton:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QPushButton:focus{background-color:white;color:white};</string>
+    </property>
+    <property name="text">
+     <string>Dossier</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/stock.png</normaloff>../ICON/stock.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c13">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>360</y>
+      <width>260</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:#e8ecf2; color : #a4a5a7; border: 0px solid #000028 ;  text-align:left; padding-left:7px}
+QPushButton:hover{background-color:white;color:#17afd3;border: 0px solid #ecf0f5}
+QPushButton:focus{background-color:white;color:white};</string>
+    </property>
+    <property name="text">
+     <string>Prérequis</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../ICON/stock.png</normaloff>../ICON/stock.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="myChoice">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>580</y>
+     <width>260</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:white; color : #17afd3; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:#17afd3;color:white;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:#17afd3;color:white};</string>
+   </property>
+   <property name="text">
+    <string>Enregistrer Mon Choix</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/word.png</normaloff>../ICON/word.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addInfo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>490</y>
+     <width>260</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:white; color : #17afd3; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:#17afd3;color:white;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:#17afd3;color:white};</string>
+   </property>
+   <property name="text">
+    <string>Actualiser les informations</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/ajouter.png</normaloff>../ICON/ajouter.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="titleIcon">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>610</y>
+     <width>30</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> color : #a4a5a7; border: 0px solid #000028 ;  text-align:center;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/blackStock.png</normaloff>../ICON/blackStock.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addUniv">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>460</y>
+     <width>260</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:white; color : #17afd3; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:#17afd3;color:white;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:#17afd3;color:white};</string>
+   </property>
+   <property name="text">
+    <string>Ajouter l'université </string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/ajouter.png</normaloff>../ICON/ajouter.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>610</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="maximum">
+    <number>7</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteUniv">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>520</y>
+     <width>260</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:white; color : #17afd3; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:#17afd3;color:white;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:#17afd3;color:white};</string>
+   </property>
+   <property name="text">
+    <string>Supprimer l'université/Choix</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/del.png</normaloff>../ICON/del.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>2</y>
+     <width>1041</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Schoolbook L</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white; border:0px;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Validée</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Université</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Formation</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Contacte</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Selectivité</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tarifs-Capacité</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Motivation</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="editChoice">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>550</y>
+     <width>260</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:white; color : #17afd3; border: 0px solid #000028 ;  text-align:left; padding-left:5px;}
+
+QPushButton:hover{background:#17afd3;color:white;border: 0px solid #ecf0f5}
+
+QPushButton:focus{background-color:#17afd3;color:white};</string>
+   </property>
+   <property name="text">
+    <string>Modifier l'université</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../ICON/edit.png</normaloff>../ICON/edit.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line4">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>520</y>
+     <width>1030</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line6">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>580</y>
+     <width>1030</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line1">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>430</y>
+     <width>1030</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line5">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>550</y>
+     <width>1030</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>460</y>
+     <width>1030</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line7">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>610</y>
+     <width>1030</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>490</y>
+     <width>1030</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:0px;</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_11</tabstop>
+  <tabstop>c1</tabstop>
+  <tabstop>c2</tabstop>
+  <tabstop>c3</tabstop>
+  <tabstop>c4</tabstop>
+  <tabstop>c5</tabstop>
+  <tabstop>c6</tabstop>
+  <tabstop>c7</tabstop>
+  <tabstop>c8</tabstop>
+  <tabstop>c9</tabstop>
+  <tabstop>c10</tabstop>
+  <tabstop>c11</tabstop>
+  <tabstop>c12</tabstop>
+  <tabstop>c13</tabstop>
+  <tabstop>c14</tabstop>
+  <tabstop>spinBox</tabstop>
+  <tabstop>newUniv</tabstop>
+  <tabstop>addUniv</tabstop>
+  <tabstop>addInfo</tabstop>
+  <tabstop>editChoice</tabstop>
+  <tabstop>myChoice</tabstop>
+  <tabstop>Line1</tabstop>
+  <tabstop>Line2</tabstop>
+  <tabstop>Line3</tabstop>
+  <tabstop>Line4</tabstop>
+  <tabstop>Line5</tabstop>
+  <tabstop>Line6</tabstop>
+  <tabstop>Line7</tabstop>
+  <tabstop>tableWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
